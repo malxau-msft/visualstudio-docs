@@ -238,9 +238,17 @@ Wraps the Microsoft C++ compiler tool, *cl.exe*. The compiler produces executabl
 
    Specify one of the following values, each of which corresponds to a command-line option.
 
+  - **NoExtensions** - **/arch:IA32**
+
   - **StreamingSIMDExtensions** - **/arch:SSE**
 
   - **StreamingSIMDExtensions2** - **/arch:SSE2**
+
+  - **AdvancedVectorExtensions** - **/arch:AVX2**
+
+  - **AdvancedVectorExtensions2** - **/arch:AVX2**
+
+  - **AdvancedVectorExtensions512** - **/arch:AVX512**
 
     For more information, see [/arch (x86)](/cpp/build/reference/arch-x86).
 
